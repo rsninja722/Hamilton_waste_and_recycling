@@ -2,6 +2,7 @@ import PIL
 
 from scripts.model import Model
 from scripts.GUI import run_GUI
+from fastai.vision.all import *
 
 def main():
     print("Loading model...")

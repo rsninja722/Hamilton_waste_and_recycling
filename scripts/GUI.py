@@ -84,6 +84,9 @@ class classifierGUI(QWidget):
 
         self.label_result = QLabel("Classification Result: N/A")
         self.layout_vbox.addWidget(self.label_result)
+        font = self.label_result.font()
+        font.setPointSize(24)
+        self.label_result.setFont(font)
 
         self.setLayout(self.layout_vbox)
 
